@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact | Romer Macabali</title>
+
+    <meta name="description" content="Contact Romer Macabali, a web development student at Holy Angel University. Reach out for collaborations, projects, or opportunities.">
+
+    <meta name="keywords" content="Contact Romer Macabali, Web Developer Philippines, Holy Angel University">
+
+    <meta name="author" content="Romer Macabali">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="assets/images/logo.png">
+
     <style>
         input, textarea {
             width: 100%;
@@ -32,11 +44,14 @@
         }
     </style>
 </head>
+
 <body>
+
     <nav>
         <div class="logo">
-            <img src="assets/images/logo.png" alt="RMDEV">
+            <img src="assets/images/logo.png" alt="RMDEV Developer Logo" loading="lazy">
         </div>
+
         <div class="nav-links">
             <a href="main.html">Home</a>
             <a href="about.html">About</a>
@@ -47,52 +62,106 @@
     </nav>
 
     <main class="container" style="padding: 160px 10% 80px;">
+
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 100px;">
+
             <section>
-                <p style="color: var(--ichigo); font-weight: 600; letter-spacing: 2px; margin-bottom: 10px;">GET IN TOUCH</p>
-                <h1 style="font-size: 3.5rem; margin-bottom: 30px;">Let's Talk.</h1>
+
+                <p style="color: var(--ichigo); font-weight: 600; letter-spacing: 2px; margin-bottom: 10px;">
+                    GET IN TOUCH
+                </p>
+
+                <h1 style="font-size: 3.5rem; margin-bottom: 30px;">
+                    Let's Talk.
+                </h1>
+
                 <p style="font-size: 1.2rem; color: var(--grimmjow); margin-bottom: 50px;">
                     Have a project in mind or just want to say hi? Feel free to reach out. I'm always open to discussing new opportunities.
                 </p>
 
                 <div style="display: flex; flex-direction: column; gap: 30px;">
+
                     <div>
-                        <p style="color: var(--ichigo); font-weight: 700; font-size: 0.8rem;">EMAIL</p>
-                        <p style="font-size: 1.2rem;">romermacabali000@gmail.com</p>
+                        <p style="color: var(--ichigo); font-weight: 700; font-size: 0.8rem;">
+                            EMAIL
+                        </p>
+                        <p style="font-size: 1.2rem;">
+                            romermacabali000@gmail.com
+                        </p>
                     </div>
+
                     <div>
-                        <p style="color: var(--ichigo); font-weight: 700; font-size: 0.8rem;">PHONE</p>
-                        <p style="font-size: 1.2rem;">09082335030</p>
+                        <p style="color: var(--ichigo); font-weight: 700; font-size: 0.8rem;">
+                            PHONE
+                        </p>
+                        <p style="font-size: 1.2rem;">
+                            09082335030
+                        </p>
                     </div>
+
                     <div>
-                        <p style="color: var(--ichigo); font-weight: 700; font-size: 0.8rem;">LOCATION</p>
-                        <p style="font-size: 1.2rem;">San Fernando, Pampanga, Philippines</p>
+                        <p style="color: var(--ichigo); font-weight: 700; font-size: 0.8rem;">
+                            LOCATION
+                        </p>
+                        <p style="font-size: 1.2rem;">
+                            San Fernando, Pampanga, Philippines
+                        </p>
                     </div>
+
                 </div>
+
             </section>
 
             <section>
-                <form id="contact-form">
+
+                <form id="contact-form" action="#" method="post" autocomplete="on">
+
                     <div>
-                        <label>Your Name</label>
-                        <input type="text" required>
+                        <label for="name">Your Name</label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
                     </div>
+
                     <div>
-                        <label>Email Address</label>
-                        <input type="email" required>
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
                     </div>
+
                     <div>
-                        <label>Message</label>
-                        <textarea rows="4" required></textarea>
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Write your message..."
+                            required></textarea>
                     </div>
-                    <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">
+
+                    <button 
+                        type="submit"
+                        class="btn-primary"
+                        style="width: 100%; border: none; cursor: pointer;">
                         Send Message
                     </button>
+
                 </form>
+
             </section>
+
         </div>
+
     </main>
 
     <script src="js/script.js"></script>
+
 </body>
 </html>
